@@ -30,16 +30,22 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "omnirom",
+    "remote": "slimsaber",
     "repository": "android_kernel_oppo_msm8974",
     "target_path": "kernel/oppo/msm8974",
+    "revision": "mm6.0-exp"
+  },
+  {
+    "remote": "github",
+    "repository": "DonkeyCoyote/proprietary_vendor_oppo",
+    "target_path": "vendor/oppo",
     "revision": "android-6.0"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_frameworks_av",
+    "remote": "slimsaber",
+    "repository": "frameworks_av",
     "target_path": "frameworks/av-caf",
-    "revision": "android-6.0-caf"
+    "revision": "mm6.0-caf"
   },
   {
     "remote": "omnirom",
@@ -76,5 +82,17 @@
     "repository": "Herna1994/android_packages_apps_SnapdragonCamera",
     "target_path": "packages/apps/SnapdragonCamera",
     "revision": "android-6.0-8974"
+  },
+  {
+    "remote": "slimsaber",
+    "repository": "uber_arm-androideabi-4.9-cortex-a15",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15",
+    "revision": "master"
+  },
+  {
+    "remote": "slimsaber",
+    "repository": "uber_arm-eabi-4.9-cortex-a15",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15",
+    "revision": "master"
   }
 ]

@@ -33,7 +33,7 @@
     "remote": "slimsaber",
     "repository": "android_kernel_oppo_msm8974",
     "target_path": "kernel/oppo/msm8974",
-    "revision": "mm6.0-exp"
+    "revision": "mm6.0"
   },
   {
     "remote": "github",

@@ -18,16 +18,16 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "omnirom",
+    "remote": "slimsaber",
     "repository": "android_device_qcom_caf-sepolicy",
     "target_path": "device/qcom/sepolicy",
-    "revision": "android-6.0"
+    "revision": "mm6.0"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_device_oppo_msm8974-common",
+    "remote": "slimsaber",
+    "repository": "device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "revision": "android-6.0"
+    "revision": "mm6.0"
   },
   {
     "remote": "slimsaber",

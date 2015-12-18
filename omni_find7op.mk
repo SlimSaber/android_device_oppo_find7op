@@ -37,6 +37,9 @@ TARGET_NO_DSPMANAGER := true
 # compile SnapdragonCamera instead of Camera2
 TARGET_USES_SNAPDRAGONCAMERA := true
 
+# Use AOSP browser rather than Chromium
+TARGET_USES_AOSP_BROWSER := true
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 

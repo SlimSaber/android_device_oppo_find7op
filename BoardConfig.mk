@@ -13,6 +13,10 @@ ART_USE_OPTIMIZING_COMPILER := true
 # Use cortex-a15 optimized Uber toolchain
 TARGET_GCC_VERSION_EXP := 4.9-cortex-a15
 
+# Enable native exFAT and NTFS kernel driver
+TARGET_KERNEL_HAVE_NTFS := true
+TARGET_KERNEL_HAVE_EXFAT := true
+
 # Partition info
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00F00000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00F00000

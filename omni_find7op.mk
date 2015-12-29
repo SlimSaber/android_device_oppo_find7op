@@ -31,9 +31,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # must be before including omni part
 TARGET_BOOTANIMATION_SIZE := 1080x608
 
-# no DSPManager for us
-TARGET_NO_DSPMANAGER := true
-
 # compile SnapdragonCamera instead of Camera2
 TARGET_USES_SNAPDRAGONCAMERA := true
 

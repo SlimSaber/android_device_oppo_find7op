@@ -14,8 +14,8 @@ ART_USE_OPTIMIZING_COMPILER := true
 TARGET_GCC_VERSION_EXP := 4.9-cortex-a15
 
 # Enable native exFAT and NTFS kernel driver
-TARGET_KERNEL_HAVE_NTFS := true
-TARGET_KERNEL_HAVE_EXFAT := true
+#TARGET_KERNEL_HAVE_NTFS := true
+#TARGET_KERNEL_HAVE_EXFAT := true
 
 # Bootzip filename
 BOOT_ZIP_OUT_FILE := OmniBear-$(TARGET_DEVICE)-$(PLATFORM_VERSION)-$(shell date +"%Y%m%d")

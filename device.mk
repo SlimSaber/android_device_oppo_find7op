@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 # NFC packages
 PRODUCT_PACKAGES += \
     NfcNci \
-    nfc_nci.msm8974 \
+    nfc_nci.find7op \
     Tag
 
 PRODUCT_COPY_FILES += \

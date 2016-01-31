@@ -48,10 +48,10 @@
     "revision": "mm6.0-caf"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_frameworks_native",
+    "remote": "slimsaber",
+    "repository": "frameworks_native",
     "target_path": "frameworks/native-caf",
-    "revision": "android-6.0-caf"
+    "revision": "mm6.0-caf"
   },
   {
     "remote": "omnirom",
@@ -66,10 +66,10 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_hardware_ril",
+    "remote": "slimsaber",
+    "repository": "hardware_ril",
     "target_path": "hardware/ril-caf",
-    "revision": "android-6.0-caf"
+    "revision": "mm6.0-caf"
   },
   {
     "remote": "omnirom",

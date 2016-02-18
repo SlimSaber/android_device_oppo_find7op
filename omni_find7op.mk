@@ -37,6 +37,12 @@ TARGET_USES_SNAPDRAGONCAMERA := true
 # Use AOSP browser rather than Chromium
 TARGET_USES_AOSP_BROWSER := true
 
+# ANT+
+PRODUCT_PACKAGES += \
+    AntHalService \
+    com.dsi.ant.antradio_library \
+    libantradio
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 

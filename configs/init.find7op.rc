@@ -20,7 +20,6 @@ on early-init
     mkdir /firmware 0771 system system
     symlink /data/tombstones /tombstones
     mount debugfs debugfs /sys/kernel/debug
-    chown system system /sys/kernel/debug/kgsl/proc
 
 on init
     # Preload the BoringSSL wrapper
@@ -137,14 +136,6 @@ on boot
     write /proc/sys/net/ipv6/conf/rmnet_sdio5/accept_ra 2
     write /proc/sys/net/ipv6/conf/rmnet_sdio6/accept_ra 2
     write /proc/sys/net/ipv6/conf/rmnet_sdio7/accept_ra 2
-
-    # To prevent out of order acknowledgements from making
-    # connection tracking to treat them as not belonging to
-    # the connection they belong to.
-    # Otherwise, a weird issue happens in which some long
-    # connections on high-throughput links get dropped when
-    # an ack packet comes out of order
-    write /proc/sys/net/netfilter/nf_conntrack_tcp_be_liberal 1
 
     ## Torch led
     chown system camera /sys/class/leds/led:flash_torch/brightness
@@ -298,14 +289,6 @@ on post-fs-data
 
     # camera sockets
     mkdir /data/misc/camera 0770 camera camera
-
-    # Vibrator
-    chown system system /sys/class/timed_output/vibrator/vtg_level
-    chown system system /sys/class/timed_output/vibrator/vtg_max
-    chown system system /sys/class/timed_output/vibrator/vtg_min
-    chmod 0644 /sys/class/timed_output/vibrator/vtg_level
-    chmod 0644 /sys/class/timed_output/vibrator/vtg_max
-    chmod 0644 /sys/class/timed_output/vibrator/vtg_min
 
     setprop vold.post_fs_data_done 1
 

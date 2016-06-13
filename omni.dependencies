@@ -31,6 +31,12 @@
   },
   {
     "remote": "slimsaber",
+    "repository": "device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "mm6.0"
+  },
+  {
+    "remote": "slimsaber",
     "repository": "android_kernel_oppo_msm8974",
     "target_path": "kernel/oppo/msm8974",
     "revision": "mm6.0"

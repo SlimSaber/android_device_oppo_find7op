@@ -48,10 +48,10 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_frameworks_av",
+    "remote": "slimsaber",
+    "repository": "frameworks_av",
     "target_path": "frameworks/av-caf",
-    "revision": "android-6.0-caf"
+    "revision": "mm6.0-caf"
   },
   {
     "remote": "omnirom",

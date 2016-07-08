@@ -18,10 +18,10 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "slimsaber",
+    "remote": "omnirom",
     "repository": "android_device_qcom_caf-sepolicy",
     "target_path": "device/qcom/sepolicy",
-    "revision": "mm6.0"
+    "revision": "android-6.0"
   },
   {
     "remote": "slimsaber",
@@ -48,16 +48,16 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "slimsaber",
-    "repository": "frameworks_av",
+    "remote": "omnirom",
+    "repository": "android_frameworks_av",
     "target_path": "frameworks/av-caf",
-    "revision": "mm6.0-caf"
+    "revision": "android-6.0-caf"
   },
   {
-    "remote": "slimsaber",
-    "repository": "frameworks_native",
+    "remote": "omnirom",
+    "repository": "android_frameworks_native",
     "target_path": "frameworks/native-caf",
-    "revision": "mm6.0-caf"
+    "revision": "android-6.0-caf"
   },
   {
     "remote": "omnirom",

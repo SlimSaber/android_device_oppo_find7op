@@ -11,7 +11,8 @@ TARGET_OTA_ASSERT_DEVICE := bacon,A0001
 ART_USE_OPTIMIZING_COMPILER := true
 
 # Use cortex-a15 optimized Uber toolchain
-TARGET_GCC_VERSION_EXP := 4.9-cortex-a15
+TARGET_GCC_VERSION_EXP := 5.x-cortex-a15
+TARGET_LEGACY_GCC_VERSION := 5.x-cortex-a15
 
 # Enable native exFAT and NTFS kernel driver
 #TARGET_KERNEL_HAVE_NTFS := true

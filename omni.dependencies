@@ -84,15 +84,15 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "slimsaber",
-    "repository": "uber_arm-androideabi-4.9-cortex-a15",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15",
+    "remote": "bitbucket",
+    "repository": "uber_arm-androideabi-5.x-cortex-a15",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-cortex-a15",
     "revision": "master"
   },
   {
-    "remote": "slimsaber",
-    "repository": "uber_arm-eabi-4.9-cortex-a15",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15",
+    "remote": "bitbucket",
+    "repository": "uber_arm-eabi-5.x-cortex-a15",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-cortex-a15",
     "revision": "master"
   }
 ]

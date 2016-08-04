@@ -39,6 +39,7 @@ NFC_NXP_CHIP_TYPE := PN547C2
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
 
 # Recovery:Start
 

@@ -1,9 +1,9 @@
 [
   {
-    "remote": "omnirom",
+    "remote": "slimsaber",
     "repository": "android_hardware_qcom_display-caf-msm8974",
     "target_path": "hardware/qcom/display-caf-msm8974",
-    "revision": "android-6.0"
+    "revision": "mm6.0"
   },
   {
     "remote": "omnirom",
